@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "URBE",
+    "slug": "URBE",
+    "version": "1.1.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/icon.png",
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/36e3c705-d625-4d10-a802-63bde379ebf0"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.servieduca.net",
+      "buildNumber": "1.1.0"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/adaptive-icon.png",
+        "backgroundColor": "#000042"
+      },
+      "package": "com.servieduca.net",
+      "versionCode": 27,
+      "permissions": []
+    },
+    "web": {
+      "favicon": "./src/assets/adaptive-icon.png"
+    },
+    "description": "",
+    "extra": {
+      "eas": {
+        "projectId": "36e3c705-d625-4d10-a802-63bde379ebf0"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
+  }
+}
